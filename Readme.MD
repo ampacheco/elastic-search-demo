@@ -10,3 +10,7 @@ This repo contains the source code for the "Elasticsearch in ASP.NET Core" artic
 
 
 ## Steps to Run the Demo
+
+## Bulk Insert
+
+`curl -XPOST localhost:9200/books/book/_bulk --data-binary @sample-data.json -H "Content-Type: application/json"`
